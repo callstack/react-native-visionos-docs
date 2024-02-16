@@ -12,7 +12,7 @@ const config = {
   tagline: 'A framework for building native visionOS applications using React',
   favicon: './img/favicon.ico',
   url: 'https://callstack.github.io',
-  baseUrl: '/react-native-visionos/',
+  baseUrl: '/react-native-visionos-docs/',
   organizationName: 'callstack', // Usually your GitHub org/user name.
   projectName: 'react-native-visionos-docs', // Usually your repo name.
   onBrokenLinks: 'throw',
