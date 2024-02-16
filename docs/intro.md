@@ -1,47 +1,26 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+:::warning
 
-## Getting Started
+This project is still at an early stage of development and is not ready for production use.
 
-Get started by **creating a new site**.
+:::
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+> Learn once, write anywhere: Build spatial apps with React.
 
-### What you'll need
+React Native visionOS allows you to write visionOS **apps with full support for platform SDK**. This is a full fork of the main repository with changes needed to support visionOS.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+![Welcome](../static/img/welcome-rn-visionos.png)
 
-## Generate a new site
+## How is it different from running app in compatibility mode?
 
-Generate a new Docusaurus site using the **classic template**.
+React Native visionOS unlocks full capabilities of the platform, giving your app transparent look that feels right at home next to other visionOS apps. It allows you to leverage the power of ImmersiveSpaces and multi-window apps.
 
-The classic template will automatically be added to your project after you run the command:
+Side by side comparison of running the same app: React Native visionOS vs React Native iOS (Compatibility mode).
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<video width="100%" controls src="https://github.com/callstack/react-native-visionos/assets/52801365/dd5d6351-3843-4f4a-ae67-541c068ac7be"/>
