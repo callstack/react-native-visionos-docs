@@ -42,7 +42,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: './img/social-card.jpg',
+      image: 'img/social-card.png',
       navbar: {
         title: 'React Native visionOS',
         logo: {
