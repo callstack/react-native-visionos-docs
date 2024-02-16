@@ -14,7 +14,7 @@ const config = {
   url: 'https://callstack.github.io',
   baseUrl: '/react-native-visionos/',
   organizationName: 'callstack', // Usually your GitHub org/user name.
-  projectName: 'react-native-visionos', // Usually your repo name.
+  projectName: 'react-native-visionos-docs', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -71,7 +71,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/intro',
+                to: '/',
               },
             ],
           },
