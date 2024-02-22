@@ -15,7 +15,7 @@ This project is still at an early stage of development and is not ready for prod
 
 React Native visionOS allows you to write visionOS **apps with full support for platform SDK**. This is a full fork of the main repository with changes needed to support visionOS.
 
-![Welcome](../static/img/welcome-rn-visionos.png)
+![Welcome](../../static/img/welcome-rn-visionos.png)
 
 ## How is it different from running app in compatibility mode?
 
