@@ -8,7 +8,7 @@ Manage Immersive Experiences.
 requestSession: (sessionId: string, userInfo?: Object) => Promise<void>
 ```
 
-Opens a new [`ImmersiveSpace`](https://developer.apple.com/documentation/swiftui/immersive-spaces) given it's unique `Id`. Can also accept `userInfo` object that get's passed to the SwiftUI view.
+Opens a new [`ImmersiveSpace`](https://developer.apple.com/documentation/swiftui/immersive-spaces) given it's unique `Id`. Can also accept `userInfo` object that get's passed to the SwiftUI view, checkout [use SwiftUI to render windows](/api/window-manager#optional-5-use-swiftui-to-render-windows) to learn more.
 
 :::warning
 
