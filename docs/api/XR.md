@@ -5,10 +5,10 @@ Manage Immersive Experiences.
 #### **`requestSession`**
 
 ```js
-requestSession: (sessionId?: string) => Promise<void>
+requestSession: (sessionId: string, userInfo?: Object) => Promise<void>
 ```
 
-Opens a new [`ImmersiveSpace`](https://developer.apple.com/documentation/swiftui/immersive-spaces) given it's unique `Id`.
+Opens a new [`ImmersiveSpace`](https://developer.apple.com/documentation/swiftui/immersive-spaces) given it's unique `Id`. Can also accept `userInfo` object that get's passed to the SwiftUI view.
 
 :::warning
 
@@ -28,37 +28,6 @@ endSession: () => Promise<void>
 
 Closes currently open `ImmersiveSpace`.
 
-## Constants
-
-#### **`supportsMultipleScenes`**
-
-```js
-supportsMultipleScenes: boolean;
-```
-
-A Boolean value that indicates whether the app may display multiple scenes simultaneously. Returns the value of `UIApplicationSupportsMultipleScenes` key from `Info.plist`.
-
-:::info
-
-## UIApplicationSupportsMultipleScenes
-
-In order to use this API, make sure your app supports multiple scenes. Set `UIApplicationSupportsMultipleScenes` to `true` in `Info.plist`:
-
-```json
-<dict>
-  <key>UIApplicationSceneManifest</key>
-  <dict>
-    <key>UIApplicationPreferredDefaultSceneSessionRole</key>
-    <string>UIWindowSceneSessionRoleApplication</string>
-    <key>UIApplicationSupportsMultipleScenes</key>
-    // highlight-next-line
-    <true/>
-    <key>UISceneConfigurations</key>
-    <dict/>
-  </dict>
-</dict>
-</plist>
-
-```
-
+:::warning
+Make sure to set `UIApplicationSupportsMultipleScenes` to `true` in `Info.plist` as described [here](/api/window-manager#uiapplicationsupportsmultiplescenes).
 :::

@@ -9,4 +9,4 @@ React Native visionOS builds upon APIs provided by [React Native Core](https://r
 ### List of APIs provided by React Native visionOS
 
 - `XR` - API to manage Immersive Experiences
-- `visionos_hoverEffect` - Hover effects (soon to be removed in favour of `cursor: 'pointer'`).
+- `cursor: pointer` - Style used to manage hover effects.
