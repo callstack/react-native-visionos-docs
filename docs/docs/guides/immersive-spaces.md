@@ -3,7 +3,7 @@
 One of the key features of visionOS are [`ImmersiveSpaces`](https://developer.apple.com/documentation/swiftui/immersive-spaces), which allow to display unbounded content in a person’s surroundings.
 
 :::warning
-Make sure to set `UIApplicationSupportsMultipleScenes` to `true` in `Info.plist` as described [here](/api/XR#uiapplicationsupportsmultiplescenes).
+Make sure to set `UIApplicationSupportsMultipleScenes` to `true` in `Info.plist` as described [here](/api/window-manager#uiapplicationsupportsmultiplescenes).
 :::
 
 ### Declare ImmersiveSpace in `App.swift`
