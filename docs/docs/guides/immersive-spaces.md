@@ -37,7 +37,7 @@ For more information about `ImmersiveSpace` API refer to [Apple documentation](h
 
 ### Open new ImmersiveSpace from JS
 
-In order to open a new ImmersiveSpace, call `XR.requestSession()`.
+In order to open a new ImmersiveSpace, call `XR.requestSession()`. Additionally you can pass data that can be retrieved in SwiftUI, checkout [use SwiftUI to render windows](/api/window-manager#optional-5-use-swiftui-to-render-windows) to learn more.
 
 ```ts
 import { XR } from "@callstack/react-native-visionos";
@@ -49,7 +49,7 @@ const openXRSession = async () => {
       return;
     }
     // highlight-next-line
-    await XR.requestSession("TestImmersiveSpace"); // Pass the same identifier from `App.swift`
+    await XR.requestSession("TestImmersiveSpace", { title: "Hey!" }); // Pass the same identifier from `App.swift`
   } catch (e) {
     Alert.alert("Error", e.message);
   }
