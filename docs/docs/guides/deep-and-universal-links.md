@@ -1,6 +1,6 @@
 # Deep and Universal Links
 
-Deep and Universal Links work differently on visionOS. Because visionOS apps are written in Swift and SwiftUI, lifecycle methods to capture these external links are handled differently.
+Deep and Universal Links work differently on visionOS. Because we are using [SwiftUI lifecycle](/docs/getting-started/entry-point), it's necessary to implement different methods to capture external links.
 
 ## Project configuration
 
