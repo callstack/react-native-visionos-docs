@@ -47,7 +47,7 @@ const config = {
         title: 'React Native visionOS',
         logo: {
           alt: 'visionOS',
-          src: './img/logo.svg',
+          src: './img/logo.png',
         },
         items: [
           {
