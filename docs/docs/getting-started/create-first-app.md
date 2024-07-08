@@ -7,7 +7,7 @@ sidebar_position: 2
 1. Make sure you have a [proper development environment setup](https://reactnative.dev/docs/environment-setup)
 2. Download the latest Xcode (at least 15.2).
 3. Install visionOS simulator runtime.
-4. Install the latest version of CMake (at least v3.28.0).
+4. Install the latest version of CMake (at least v3.29.0).
 5. Initialize the project using this command:
 
 ```sh
