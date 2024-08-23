@@ -48,7 +48,13 @@ const config = {
 module.exports = mergeConfig(getDefaultConfig(__dirname), config);
 ```
 
-5. Done!
+5. Add `visionos/Pods` to your `.gitignore` file.
+
+```sh
+echo "**/Pods/" >> .gitignore
+```
+
+6. Done!
 
 :::warning
 Currently, **Expo** is not supported.
