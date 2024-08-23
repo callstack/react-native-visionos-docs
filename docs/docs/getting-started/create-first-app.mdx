@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Create your first App
 
@@ -10,9 +12,19 @@ sidebar_position: 2
 4. Install the latest version of CMake (at least v3.29.0).
 5. Initialize the project using this command:
 
+
+<Tabs>
+  <TabItem value="0.75" label="React Native >= 0.75">
+```sh
+npx @react-native-community/cli@latest init <YourAppName> --template @callstack/visionos-template@latest
+```
+  </TabItem>
+  <TabItem value="0.74" label="React Native <= 0.74" default>
 ```sh
 npx @callstack/react-native-visionos@latest init YourApp
 ```
+  </TabItem>
+</Tabs>
 
 6. Next, go to `YourApp/visionos` folder and run following commands to install Pods:
 

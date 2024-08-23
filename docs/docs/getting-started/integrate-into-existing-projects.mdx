@@ -2,6 +2,9 @@
 sidebar_position: 3
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Integrate into existing projects
 
 React Native visionOS allows you to take your existing React Native codebase and run it on visionOS.
@@ -12,9 +15,18 @@ This guide describes how to extend your app's capabilities by adding a new platf
 
 Use the same name that you have in your main app.
 
+<Tabs>
+  <TabItem value="0.75" label="React Native >= 0.75">
+```sh
+npx @react-native-community/cli@latest init <YourAppName> --template @callstack/visionos-template@latest
+```
+  </TabItem>
+  <TabItem value="0.74" label="React Native <= 0.74" default>
 ```sh
 npx @callstack/react-native-visionos@latest init <YourAppName>
 ```
+  </TabItem>
+</Tabs>
 
 2. Copy `visionos` folder to your destination project.
 
@@ -48,7 +60,13 @@ const config = {
 module.exports = mergeConfig(getDefaultConfig(__dirname), config);
 ```
 
-5. Done!
+5. Add `visionos/Pods` to your `.gitignore` file.
+
+```sh
+echo "**/Pods/" >> .gitignore
+```
+
+6. Done!
 
 :::warning
 Currently, **Expo** is not supported.
