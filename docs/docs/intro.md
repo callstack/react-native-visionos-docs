@@ -5,12 +5,6 @@ slug: /
 
 # Introduction
 
-:::warning
-
-This project is still at an early stage of development and is not ready for production use.
-
-:::
-
 > Learn once, write anywhere: Build spatial apps with React.
 
 React Native visionOS allows you to write visionOS **apps with full support for platform SDK**. This is a full fork of the main repository with changes needed to support visionOS.
